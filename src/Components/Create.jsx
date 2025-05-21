@@ -7,7 +7,7 @@ export default function Create() {
   const [lastName, setLastName] = useState("");
   const [checkbox, setCheckbox] = useState(false);
   const postData = () => {
-    // console.log(firstName);
+    console.log(firstName);
     // console.log(lastName);
     // console.log(checkbox);
     axios.post(`https://660a3bc60f324a9a288461b3.mockapi.io/fakeData`, {  //axios to send post request
