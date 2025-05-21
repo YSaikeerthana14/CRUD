@@ -5,5 +5,6 @@ export default function Delete() {
     console.log("state",state)
   return (
     <div>Delete</div>
+
   )
 }
